@@ -12,9 +12,9 @@ Game Plan
 
 ### Problem Lists
 
-[크레인 인형뽑기](https://programmers.co.kr/learn/courses/30/lessons/64061"프로그래머스 링크")
+[크레인 인형뽑기](https://programmers.co.kr/learn/courses/30/lessons/64061 "프로그래머스 링크")
 
-[모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840"프로그래머스 링크")
+[모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840 "프로그래머스 링크")
 
-[두개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644"프로그래머스 링크")
+[두개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644 "프로그래머스 링크")
 
