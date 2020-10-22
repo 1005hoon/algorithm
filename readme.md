@@ -1,5 +1,5 @@
-AlgoStudy with JavaScript
-===========================
+# AlgoStudy with JavaScript
+
 
 Game Plan
 ----------
