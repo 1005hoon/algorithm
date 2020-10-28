@@ -240,6 +240,98 @@ i 루프 안에 있는 j루프도 O(n)입니다.
 | O(1000n+50) | O(n)     |
 | O(n^2+5n+7) | O(n^2)   |
 
+### Pop Quiz
+
+#### 1. O(n + 10)의 time complexity를 더 간단하게 표현해보세요
+
+`O(n)`
+
+#### 2. O(100 &n + 10)의 time complexity를 더 간단하게 표현해보세요
+
+`O(n)`
+
+#### 3. O(25)의 time complexity를 더 간단하게 표현해보세요
+
+`O(1)`
+
+#### 4. O(n^2 + n^3)의 time complexity를 더 간단하게 표현해보세요
+
+`O(n^3)`
+
+#### 5. O(n + n + n + n)의 time complexity를 더 간단하게 표현해보세요
+
+`O(n)`
+
+### 6. 다음 코드의 time complexity를 계산하세요
+
+```
+function logUpTo(n) {
+    for (var i = 1; i <= n; i++) {
+        console.log(i);
+    }
+}
+```
+
+`O(n)`
+
+### 7. 다음 코드의 time complexity를 계산하세요
+
+```
+function logUpTo(n) {
+    for (var i = 1; i <= n; i++) {
+        console.log(i);
+    }
+}
+```
+
+`O(n)`
+
+### 8. 다음 코드의 time complexity를 계산하세요
+
+```
+function logAtMost10(n) {
+    for (var i = 1; i <= Math.min(n, 10); i++) {
+        console.log(i);
+    }
+}
+```
+
+`O(1)`
+
+### 9. 다음 코드의 time complexity를 계산하세요
+
+```
+function onlyElementsAtEvenIndex(array) {
+    var newArray = Array(Math.ceil(array.length / 2));
+    for (var i = 0; i < array.length; i++) {
+        if (i % 2 === 0) {
+            newArray[i / 2] = array[i];
+        }
+    }
+    return newArray;
+}
+```
+
+`O(n)`
+
+### 10. 다음 코드의 time complexity를 계산하세요
+
+```
+function subtotals(array) {
+    var subtotalArray = Array(array.length);
+    for (var i = 0; i < array.length; i++) {
+        var subtotal = 0;
+        for (var j = 0; j <= i; j++) {
+            subtotal += array[j];
+        }
+        subtotalArray[i] = subtotal;
+    }
+    return subtotalArray;
+}
+```
+
+`O(n^2)`
+
 ## Space Complexity
 
 여지껏은 Time Complexity에 대해 알아보았는데요,
@@ -292,6 +384,78 @@ const double = (arr) => {
 
 이 코드의 경우, array가 활용이 되었죠.
 따라서 O(n)의 space complexity를 갖습니다.
+
+### Pop Quiz
+
+#### 1. 다음 코드의 space complexity를 계산해보세요
+
+```
+function logUpTo(n) {
+    for (var i = 1; i <= n; i++) {
+        console.log(i);
+    }
+}
+```
+
+`O(1)`
+
+#### 2. 다음 코드의 space complexity를 계산해보세요
+
+```
+function logAtMost10(n) {
+    for (var i = 1; i <= Math.min(n, 10); i++) {
+        console.log(i);
+    }
+}
+```
+
+`O(1)`
+
+#### 3. 다음 코드의 space complexity를 계산해보세요
+
+```
+function logAtMost10(n) {
+    for (var i = 1; i <= Math.min(n, 10); i++) {
+        console.log(i);
+    }
+}
+```
+
+`O(1)`
+
+#### 4. 다음 코드의 space complexity를 계산해보세요
+
+```
+function onlyElementsAtEvenIndex(array) {
+    var newArray = Array(Math.ceil(array.length / 2));
+    for (var i = 0; i < array.length; i++) {
+        if (i % 2 === 0) {
+            newArray[i / 2] = array[i];
+        }
+    }
+    return newArray;
+}
+```
+
+`O(n)`
+
+#### 5. 다음 코드의 space complexity를 계산해보세요
+
+```
+function subtotals(array) {
+    var subtotalArray = Array(array.length);
+    for (var i = 0; i < array.length; i++) {
+        var subtotal = 0;
+        for (var j = 0; j <= i; j++) {
+            subtotal += array[j];
+        }
+        subtotalArray[i] = subtotal;
+    }
+    return subtotalArray;
+}
+```
+
+`O(n)`
 
 ## Logarithms
 
