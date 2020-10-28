@@ -1,10 +1,6 @@
 const solution = (board, choices) => {
   const filteredBoard = board
-    .reduce((prev, cur) => {
-      return cur.map((val, index) => {
-        return [...(prev[index] || []), cur[index]];
-      });
-    }, [])
+    .map((_, rowIndex) => board.map((row) => row[rowIndex]))
     .map((row) => row.filter((el) => el !== 0));
 
   let bucket = [];
