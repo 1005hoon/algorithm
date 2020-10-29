@@ -13,20 +13,20 @@
 
 ### Problem Lists
 
-[크레인 인형뽑기](https://programmers.co.kr/learn/courses/30/lessons/64061 "프로그래머스 링크")
+- [x] [크레인 인형뽑기](https://programmers.co.kr/learn/courses/30/lessons/64061 "프로그래머스 링크")
 
-[모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840 "프로그래머스 링크")
+- [x] [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840 "프로그래머스 링크")
 
-[두개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644 "프로그래머스 링크")
+- [x] [두개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644 "프로그래머스 링크")
 
 ## Week 2 ('20.11.04)
 
 ### Problem Lists
 
-[체육복](https://programmers.co.kr/learn/courses/30/lessons/42862 "프로그래머스 링크")
+- [] [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862 "프로그래머스 링크")
 
-[비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681 "프로그래머스 링크")
+- [] [비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681 "프로그래머스 링크")
 
-[키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256 "프로그래머스 링크")
+- [] [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256 "프로그래머스 링크")
 
-[시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926 "프로그래머스 링크")
+- [] [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926 "프로그래머스 링크")
