@@ -1,24 +1,31 @@
 function solution(n, lost, reserve) {
     var answer = 0;
+    var rmArr=[];
     for(let i = 0; i <reserve.length;i++){
-        let reserveOfLost = lost.find(element => reserve[i] === element);
-        if(reserveOfLost !== undefined){
+        let reserveOfLost = lost.find(element => reserve[i] === element);//도난당한 학생중 여벌옷 가져온 학생을 찾아서
+        if(reserveOfLost !== undefined){//도난당한 학생 배열과 여벌옷가져온 학생 배열에서 각각 제거
             let idxOfLost = lost.indexOf(reserveOfLost);
-            let idxOfReserve = lost.indexOf(reserveOfLost);
+            let idxOfReserve = reserve.indexOf(reserveOfLost);
             lost.splice(idxOfLost,1);
             reserve.splice(idxOfReserve,1);
         }
 
-        for(let j = 0; j < lost.length;j++){
-            if((reserve[i] === lost[j]-1) || (reserve[i] === lost[j] + 1)){
-               let rmLost = lost.indexOf(lost[j]);
-               lost.splice(rmLost,1);
+        for(let j = 0; j < lost.length;j++){//여벌옷 가져온 학생의 번호가 도난당한 학생의 바로 앞이거나 뒤 일경우 도난 배열에서 제거
+            if((reserve[i] === lost[j]-1) || reserve[i] === lost[j]+1){
+            //    let rmLost = lost.indexOf(lost[j]);
+            //    lost.splice(rmLost,1);
+                rmArr.push(lost[j]);
+                reserve.splice(reserve.indexOf(reserve[i]),1);
             }
         }
+        console.log('rmArr: ',rmArr);
     }
-    answer = n - lost.length;
+    const set1 = [...new Set(rmArr)];
+    var rmCnt = lost.length - set1.length;
+    console.log('rmCnt: ',rmCnt)
+    answer = n - rmCnt;//전체 학생수에서 도난 당한 학생의 수를 빼줌
     console.log(answer);
     return answer;
 }
 
-solution(3, [3], [1]);
+solution(	5, [2, 4], [1, 3, 5]);
