@@ -1,4 +1,3 @@
-
 const solution = (numbers, hand) => {
   let lefthand;
   let righthand;
@@ -7,7 +6,7 @@ const solution = (numbers, hand) => {
     { pHand, lefthand, rightHand } = hitButton(number, hand, lefthand, righthand)
   })
 }
-
+[1,4 ,3, 5, 6, 4, 3]
 const hitButton = (number, mainHand, lefthand="*", righthand="#") => {
   let mHand = mainHand.toLowerCase() === 'Left' ? "L" : "R"
 
