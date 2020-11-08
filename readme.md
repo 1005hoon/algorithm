@@ -23,10 +23,20 @@
 
 ### Problem Lists
 
-- [ ] [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862 "프로그래머스 링크")
+- [x] [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862 "프로그래머스 링크")
 
-- [ ] [비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681 "프로그래머스 링크")
+- [x] [비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681 "프로그래머스 링크")
 
-- [ ] [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256 "프로그래머스 링크")
+- [x] [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256 "프로그래머스 링크")
 
-- [ ] [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926 "프로그래머스 링크")
+- [x] [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926 "프로그래머스 링크")
+
+## Week 3 ('20.11.11)
+
+### Problem Lists
+
+- [ ] [서울에서 김서방 찾기](https://programmers.co.kr/learn/courses/30/lessons/12919 "프로그래머스 링크")
+
+- [ ] [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748 "프로그래머스 링크")
+
+- [ ] [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901 "프로그래머스 링크")
