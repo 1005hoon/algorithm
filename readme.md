@@ -35,8 +35,18 @@
 
 ### Problem Lists
 
-- [ ] [서울에서 김서방 찾기](https://programmers.co.kr/learn/courses/30/lessons/12919 "프로그래머스 링크")
+- [x] [서울에서 김서방 찾기](https://programmers.co.kr/learn/courses/30/lessons/12919 "프로그래머스 링크")
 
-- [ ] [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748 "프로그래머스 링크")
+- [x] [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748 "프로그래머스 링크")
 
-- [ ] [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901 "프로그래머스 링크")
+- [x] [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901 "프로그래머스 링크")
+
+## Week 4 ('20.11.18)
+
+### Problem Lists
+
+- [ ] [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935 "프로그래머스 링크")
+
+- [ ] [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889 "프로그래머스 링크")
+
+- [ ] [다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682 "프로그래머스 링크")
