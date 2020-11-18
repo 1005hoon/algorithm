@@ -45,8 +45,18 @@
 
 ### Problem Lists
 
-- [ ] [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935 "프로그래머스 링크")
+- [x] [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935 "프로그래머스 링크")
 
-- [ ] [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889 "프로그래머스 링크")
+- [x] [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889 "프로그래머스 링크")
 
-- [ ] [다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682 "프로그래머스 링크")
+- [x] [다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682 "프로그래머스 링크")
+
+## Week 5 ('20.11.25)
+
+### Problem Lists
+
+- [ ] [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057 "프로그래머스 링크")
+
+- [ ] [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899 "프로그래머스 링크")
+
+- [ ] [타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165 "프로그래머스 링크")
