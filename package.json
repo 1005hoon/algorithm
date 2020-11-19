@@ -1,0 +1,20 @@
+{
+  "name": "js-algorithm",
+  "version": "1.0.0",
+  "description": "- 매주 **수요일 20:30**에 온라인으로 진행\r - 매주 <s>3개</s> 4개 문제 푼 뒤, 서로 코드리뷰 및 비교 \\*'20.10.28부. 레벨 1의 문제에 한하여 실행\r - 매월 3째주 일요일마다 **모의고사** 진행\r - 문제풀이를 위해 적용하였거나 새로 공부한 알고리즘 또는 Data Structure 지식 공유",
+  "main": "01-두개뽑아서더하기.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1005hoon/js-algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1005hoon/js-algorithm/issues"
+  },
+  "homepage": "https://github.com/1005hoon/js-algorithm#readme"
+}

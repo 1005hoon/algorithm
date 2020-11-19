@@ -1,14 +1,32 @@
 /**
- * N        = 총 스테이지 수
- * N + 1    = 최종 스테이지
- * []       = 실패한 스테이지
- * [N + 1]  = 모두 다 클리어
- * * 실패율이 같은 스테이지가 있다면 작은번호부터 나오도록
- * 실패율 = 스테이지에 도달했으나 클리어 하지 못한 수 / 도달한 플레이어 수
+ * N = stage  6
+ * [] = stageArr  => [2, 1, 2, 2, 3, 3, 4, ] => [1, 2, 2, 2 ... ]
+ * 
+ * result = result [sortedArr]
  */
-     
- // [1, 2, 2, 2, 3, 3, 4, 6]
 
- 1 = 1 / 8
- 2 = 3 / 7
- 3 = 
+ const solution = (stageLength, currentStagesArr) => {
+  let userCount = currentStagesArr.length; 
+  const sortedStages = currentStagesArr.sort((a, b) => a - b)
+  const stageStat = {}
+
+  for ( let i = 0; i < stageLength; i ++ ) {
+    stageStat[i + 1] = 0
+  }
+
+  sortedStages.forEach((stage, index) => {
+    console.log(stageStat)
+    if (stage === (stageLength + 1)) {
+      return stageStat[stageLength] = 0
+    }
+
+    if (stageStat[`${stage}`] !== 0 ) return 
+    const failCount = currentStagesArr.filter(currentStage => currentStage === stage).length
+    stageStat[stage] = failCount / userCount
+    userCount -= failCount
+  })
+  
+  return Object.keys(stageStat).sort((a, b) => stageStat[b] - stageStat[a]).map(stage => stage*1)
+ }
+//  console.log(solution(5, [2, 1, 2, 6, 2, 4, 3, 3]))
+ console.log(solution(4, [4,4,4,4,4]))
