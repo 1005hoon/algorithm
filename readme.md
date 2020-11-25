@@ -55,8 +55,16 @@
 
 ### Problem Lists
 
-- [ ] [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057 "프로그래머스 링크")
+- [x] [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057 "프로그래머스 링크")
 
-- [ ] [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899 "프로그래머스 링크")
+- [x] [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899 "프로그래머스 링크")
 
-- [ ] [타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165 "프로그래머스 링크")
+- [x] [타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165 "프로그래머스 링크")
+
+## Week 6 ('20.12.02)
+
+### Problem Lists
+
+- [] [멀쩡한사각형](https://programmers.co.kr/learn/courses/30/lessons/62048 "프로그래머스 링크")
+
+- [] [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583 "프로그래머스 링크")
