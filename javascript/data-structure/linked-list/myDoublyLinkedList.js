@@ -13,14 +13,16 @@ class DoublyLinkedList {
     const newNode = {
       value,
       next: null,
-      prev: this.head
+      prev: null
     };
-    this.head.next = newNode;
+    this.tail.next = newNode;
     this.tail = newNode;
+    newNode.prev = this.tail;
     this.length ++;
+    return this;
   }
 }
 
 const newLink = new DoublyLinkedList(3)
-newLink.append(10)
+newLink.append(5)
 console.log(newLink)
